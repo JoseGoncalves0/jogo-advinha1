@@ -15,6 +15,7 @@ while tentativa < max_tentativas:
         continue
 
     tentativa += 1
+    print("Tentativa", tentativa, "de", max_tentativas)
 
     if palpite < numero_secreto:
         print("O número secreto é maior que", palpite)
